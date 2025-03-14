@@ -1,0 +1,77 @@
+<!--Kendra Mannes
+03/14/2025
+Javascript 30 Project 1
+Bird sound board-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kansas Bird Soundboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://fav.farm/✅" />
+</head>
+<body>
+<!--Added code to have a corresponding bird image to each key-->
+  <div class="keys">
+    <div data-key="69" class="key" id="e">
+      <kbd>E</kbd>
+      <span class="sound">Eastern Bluebird</span>
+      <img src="Birds/photos/easternbluebird.jpg" alt="Eastern Bluebird" class="bird-image">
+    </div>
+    <div data-key="65" class="key" id="a">
+      <kbd>A</kbd>
+      <span class="sound">American Robin</span>
+      <img src="Birds/photos/robin.jpg" alt="American Robin" class="bird-image">
+    </div>
+    <div data-key="82" class="key" id="r">
+      <kbd>R</kbd>
+      <span class="sound">Red-winged Blackbird</span>
+      <img src="Birds/photos/redwinged.jpg" alt="Red-winged Blackbird" class="bird-image">
+    </div>
+    <div data-key="76" class="key" id="l">
+      <kbd>L</kbd>
+      <span class="sound">Eastern Meadowlark</span>
+      <img src="Birds/photos/meadowlark.jpg" alt="Lark" class="bird-image">
+    </div>
+    <div data-key="89" class="key" id="y">
+      <kbd>Y</kbd>
+      <span class="sound">Yellow Warbler</span>
+      <img src="Birds/photos/warbler.jpg" alt="Yellow Warbler" class="bird-image">
+    </div>
+    <div data-key="66" class="key" id="b">
+      <kbd>B</kbd>
+      <span class="sound">Blue Jay</span>
+      <img src="Birds/photos/bluejay.jpg" alt="Blue Jay" class="bird-image">
+    </div>
+    <div data-key="73" class="key" id="i">
+      <kbd>I</kbd>
+      <span class="sound">Indigo Bunting</span>
+      <img src="Birds/photos/indigobunting.jpg" alt="Indigo Bunting" class="bird-image">
+    </div>
+    <div data-key="82" class="key" id="r">
+      <kbd>R</kbd>
+      <span class="sound">Red-winged Blackbird</span>
+      <img src="Birds/photos/redwinged.jpg" alt="Red-winged Blackbird" class="bird-image">
+    </div>
+    <div data-key="68" class="key" id="d">
+      <kbd>D</kbd>
+      <span class="sound">Duck</span>
+      <img src="Birds/photos/duck.jpg" alt="Duck" class="bird-image">
+    </div>
+  </div>
+
+  <audio data-key="69" id="audioe" src="Birds/sounds/eastern_bluebird.mp3"></audio>
+  <audio data-key="65" id="audioa" src="Birds/sounds/american_robin.mp3"></audio>
+  <audio data-key="82" id="audior" src="Birds/sounds/red_winged_blackbird (1).mp3"></audio>
+  <audio data-key="76" id="audiol" src="Birds/sounds/eastern_meadowlark.mp3"></audio>
+  <audio data-key="89" id="audioy" src="Birds/sounds/yellow_warbler.mp3"></audio>
+  <audio data-key="66" id="audiob" src="Birds/sounds/blue_jay.mp3"></audio>
+  <audio data-key="73" id="audioi" src="Birds/sounds/indigo_bunting.mp3"></audio>
+  <audio data-key="68" id="audiod" src="Birds/sounds/mallard.mp3"></audio>
+  
+
+<script src="script.js"></script>
+
+</body>
+</html>
