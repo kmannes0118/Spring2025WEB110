@@ -4,7 +4,7 @@ Javascript30 Project 1
 Bird sound board CSS*/
 
 body {
-    background-image: url(Birds/photos/forest.jpg);
+    background-image: url(forest.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
