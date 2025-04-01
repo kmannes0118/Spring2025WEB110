@@ -1,0 +1,114 @@
+/*Kendra Mannes
+04/01/2025
+Javascript30 Project 2
+Alarm Clock CSS*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  
+  .clock-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .clock {
+    width: 25rem;
+    height: 25rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    position: relative;
+    padding: 2rem;
+    box-shadow:
+      0 0 0 4px rgba(0, 0, 0, 0.1),
+      inset 0 0 0 3px #EFEFEF,
+      inset 0 0 10px black,
+      0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hand {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transition: transform 0.2s cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+  
+  .hour-hand {
+    height: 8px;
+    background-color: #333;
+  }
+  
+  .min-hand {
+    height: 6px;
+    background-color: #666;
+  }
+  
+  .second-hand {
+    height: 4px;
+    background-color: red;
+  }
+  
+  .digit-display {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .digital-time, .date-display, .alarm {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .digital-time {
+    margin-top: 20px;
+    font-size: 3rem;
+  }
+  
+  .date-display {
+    margin-top: 15px;
+  }
+  
+  .alarm {
+    margin-top: 25px;
+  }
+  
+  input[type="time"], select {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .digit-display, .date-display, .alarm {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .alarm-status {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #FFD700;
+  }
+  
