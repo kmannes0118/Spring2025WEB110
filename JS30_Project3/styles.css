@@ -1,0 +1,54 @@
+/*Kendra Mannes
+04/09/2025
+Javascript30 Project 3
+Drawing App CSS*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #reference {
+    max-width: 400px;
+    max-height: 600px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    user-select: none;
+    pointer-events: none;
+  }
+  
+  
+  #draw {
+    border: 1px solid #ccc;
+    background: white;
+    height:auto;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .swatches {
+    display: inline-flex;
+    gap: 5px;
+    margin: 10px 0;
+  }
+  
+  .color-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #444;
+    cursor: pointer;
+  }
+  
