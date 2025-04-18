@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Zeus",
+    "domain": "Sky and Thunder",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Zeus",
+    "image": "images/zeus.jpg"
+  },
+  {
+    "name": "Hera",
+    "domain": "Marriage and Family",
+    "gender": "Female",
+    "bio": "https://en.wikipedia.org/wiki/Hera",
+    "image": "images/hera.jpg"
+  },
+  {
+    "name": "Poseidon",
+    "domain": "Sea and Earthquakes",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Poseidon",
+    "image": "images/poseidon.jpg"
+  },
+  {
+    "name": "Demeter",
+    "domain": "Agriculture and Harvest",
+    "gender": "Female",
+    "bio": "https://en.wikipedia.org/wiki/Demeter",
+    "image": "images/demeter.jpg"
+  },
+  {
+    "name": "Athena",
+    "domain": "Wisdom and War Strategy",
+    "gender": "Female",
+    "bio": "https://en.wikipedia.org/wiki/Athena",
+    "image": "images/athena.jpg"
+  },
+  {
+    "name": "Apollo",
+    "domain": "Sun, Music, and Healing",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Apollo",
+    "image": "images/apollo.jpg"
+  },
+  {
+    "name": "Artemis",
+    "domain": "Hunt and Moon",
+    "gender": "Female",
+    "bio": "https://en.wikipedia.org/wiki/Artemis",
+    "image": "images/artemis.jpg"
+  },
+  {
+    "name": "Ares",
+    "domain": "War",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Ares",
+    "image": "images/ares.jpg"
+  },
+  {
+    "name": "Aphrodite",
+    "domain": "Love and Beauty",
+    "gender": "Female",
+    "bio": "https://en.wikipedia.org/wiki/Aphrodite",
+    "image": "images/aphrodite.jpg"
+  },
+  {
+    "name": "Hephaestus",
+    "domain": "Fire and Craftsmanship",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Hephaestus",
+    "image": "images/hephaestus.jpg"
+  },
+  {
+    "name": "Hermes",
+    "domain": "Travel and Communication",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Hermes",
+    "image": "images/hermes.jpg"
+  },
+  {
+    "name": "Hestia",
+    "domain": "Hearth and Home",
+    "gender": "Female",
+    "bio": "https://en.wikipedia.org/wiki/Hestia",
+    "image": "images/hestia.jpg"
+  },
+  {
+    "name": "Dionysus",
+    "domain": "Wine and Festivity",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Dionysus",
+    "image": "images/dionysus.jpg"
+  },
+  {
+    "name": "Hades",
+    "domain": "Underworld",
+    "gender": "Male",
+    "bio": "https://en.wikipedia.org/wiki/Hades",
+    "image": "images/hades.jpg"
+  }
+]
