@@ -1,0 +1,54 @@
+/*Kendra Mannes
+05/05/2025
+Javascript Final Exam
+Calculator CSS*/
+
+body {
+  font-family: Georgia, serif;
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 100px;
+  padding: 0.4rem;
+}
+
+button {
+  padding: 0.4rem 0.75rem;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.results div {
+  flex: 1;
+  min-width: 200px;
+}
+
+pre {
+  background-color: #f3f3f3;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+}
